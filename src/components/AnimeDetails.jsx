@@ -21,11 +21,19 @@ const AnimeDetails = () => {
   return (
     <div>
       {loading && (
-        <>
-          <div className="w-[100%] bg-black h-[100vh] flex absolute">
-            <div className="loader"></div>
+        <div className="w-[100%] h-[100vh] flex flex-col justify-center items-center">
+          <div className="loader">
+            <div className="load1"></div>
+            <div className="load2"></div>
+            <div className="load3"></div>
+            <div className="load4"></div>
+            <div className="load5"></div>
+            <div className="load6"></div>
+            <div className="load7"></div>
+            <div className="load8"></div>
+            <div className="load9"></div>
           </div>
-        </>
+        </div>
       )}
       <div className="   gap-5 mx-auto whitespace-nowrap">
         <div className="h-[300px]  w-[400px]">

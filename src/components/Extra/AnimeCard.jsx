@@ -6,7 +6,11 @@ const AnimeCard = ({ anime }) => {
   const { title, name, image } = anime;
 
   return (
-    <div className="   gap-5 mx-auto whitespace-nowrap">
+    <div
+      data-aos="zoom-in" // Animation for the whole card
+      data-aos-duration={`1${anime?.id * 15}0`} // Duration in milliseconds
+      className="   gap-5 mx-auto whitespace-nowrap"
+    >
       <div className="h-[300px]  w-[400px]">
         <img
           src={image}
